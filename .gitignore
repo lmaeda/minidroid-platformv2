@@ -2,6 +2,23 @@
 .gradle/
 build/
 
+#  Android Studio Navigation editor temp files
+.navigation/
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# build files
+out/
+external/rclone_bin/
+external/rclone_bin_dir/
+vendor/services/enclave/target/
+vendor/services/enclave/.fingerprint/
+external/ffmpeg_src/
+external/toybox_src/
+
 # Local configuration file (sdk path, etc)
 local.properties
 
