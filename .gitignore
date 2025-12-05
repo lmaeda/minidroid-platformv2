@@ -1,7 +1,3 @@
-# Gradle files
-.gradle/
-build/
-
 #  Android Studio Navigation editor temp files
 .navigation/
 
@@ -10,14 +6,49 @@ build/
 .AppleDouble
 .LSOverride
 
+# C/C++ OSS source codes files
+external/lib/src/
+
+# binary files
+external/bin/
+
 # build files
 out/
-external/rclone_bin/
-external/rclone_bin_dir/
-vendor/services/enclave/target/
-vendor/services/enclave/.fingerprint/
-external/ffmpeg_src/
-external/toybox_src/
+build/
+target/
+__pycache__/
+.venv/
+
+# Gradle files
+.gradle/
+build/
+# Java
+*.class
+*.jar
+*.ser
+*.tmp
+*.class.lock
+*.jar.lock  
+*.ser.lock
+*.tmp.lock
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+#Rust
+*.rlib
+*.rmeta
+*.d
+*.dylib
+
+# General / Implied (C/C++ sources '.c', '.cpp', '.cc')
+*.o
+*.obj
+*.exe
+*.a
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -49,3 +80,6 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Snyk Security Extension - AI Rules (auto-generated)
+.github/instructions/snyk_rules.instructions.md
